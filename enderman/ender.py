@@ -8,7 +8,7 @@ ENDERMAN_MD5_0 = 0xa6dd84b6981b3414
 ENDERMAN_MD5_1 = 0x4bec48c8de2830b3
 STAFFORD_MIXING_1 = 0xbf58476d1ce4e5b9
 STAFFORD_MIXING_2 = 0x94d049bb133111eb
-MAX_SEQUENCE = 50
+MAX_SEQUENCE = 20
 
 def mix_stafford13(seed: int) -> int:
     seed = (seed ^ (seed >> 30)) * STAFFORD_MIXING_1 & MASK_64
@@ -65,4 +65,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     sequence = simulate_ender(args.seed, args.d)
+
     print(f"Seed {args.seed} ender pearl drops: {sequence}")
