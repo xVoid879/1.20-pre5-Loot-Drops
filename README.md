@@ -1,4 +1,4 @@
-# 1.20-pre5-Loot-Drops
+# 1.20-pre5+ Loot Drops
 Research, Simulation on 1.20-pre5+ Loot Drops. Also contains CUDA Kernels for finding cool loot drops.
 
 The goal is just to simulate all the loot drops and, optionally, find seeds with cool loot drops (Records won't be here).
