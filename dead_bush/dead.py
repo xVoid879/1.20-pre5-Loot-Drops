@@ -3,7 +3,7 @@
 import argparse
 
 MASK_64 = 0xFFFFFFFFFFFFFFFF
-MAX_SEQUENCE = 50
+MAX_SEQUENCE = 20
 
 GOLDEN_RATIO_64 = 0x9e3779b97f4a7c15
 SILVER_RATIO_64 = 0x6a09e667f3bcc909
@@ -72,4 +72,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     seq = dead_bush_sequence(args.seed, args.depth)
+
     print(f"Seed {args.seed} dead bush stick sequence: {seq}")  
