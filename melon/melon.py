@@ -4,7 +4,7 @@
 import argparse
 
 MASK_64 = 0xFFFFFFFFFFFFFFFF
-MAX_SEQUENCE = 22
+MAX_SEQUENCE = 20
 
 GOLDEN_RATIO_64 = 0x9e3779b97f4a7c15
 SILVER_RATIO_64 = 0x6a09e667f3bcc909
@@ -87,4 +87,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     seq = melon_sequence(args.seed, args.depth)
+
     print(f"Seed {args.seed} melon drops: {seq}")
