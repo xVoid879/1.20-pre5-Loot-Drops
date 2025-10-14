@@ -9,7 +9,7 @@ You should definitely watch this video by Matthew Bolan: https://www.youtube.com
 
 Block's MD5 Values (Also leads to Entities and Gameplay) here: https://gist.github.com/xVoid879/996dad365721789e53855c59fcf2fd99
 
-Simplified Explanation on how gravel drops work: https://gist.github.com/xVoid879/8c5665c2c1ef3926a3e66cf4f052c888
+Simplified Explanation on how gravel drops work, talking a bit about how the seed is hashed in 1.20-pre5: https://gist.github.com/xVoid879/8c5665c2c1ef3926a3e66cf4f052c888
 
 ## Credits (In no particular order) for the research:
 - [Tremeschin](https://github.com/tremeschin/) for exploring dead bush stick logic and how to obtain the two MD5 Values. (Statistical Research)
