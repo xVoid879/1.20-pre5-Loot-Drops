@@ -1,5 +1,5 @@
 # 1.20-pre5+ Loot Drops 
-Research and simulation of Minecraft 1.20-pre5+ loot drops, with some having CUDA kernels for discovering seeds with cool loot drops (No records are here).
+Research and simulation of Minecraft 1.20-pre5+ loot drops, with some having CUDA kernels for discovering seeds with cool loot drops (No records in this repo).
 
 The main goal is to just simulate all the loot drops.
 
