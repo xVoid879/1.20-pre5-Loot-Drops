@@ -18,3 +18,4 @@ Simplified Explanation on how gravel drops work, talking a bit about how the see
 - [Fragrant Result](https://github.com/FragrantResult186) for providing tree logic.
 - [PseudoGravity](https://github.com/pseudogravity) for finding a solution to a dumb mistake I made in my CUDA kernel searching for back-to-back flints. Also for exploring a potential optimization involving seeds with similar xoroshiro initializations. (Statistical Research)
 - [DuncanRuns](https://github.com/DuncanRuns) for creating a [library](https://github.com/duncanruns/miltsu) in Java simulating many things, including blaze and wither loot drops.
+- Please tell me if I missed anyone
