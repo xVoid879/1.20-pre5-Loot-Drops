@@ -7,14 +7,14 @@ The main goal is to just simulate all the loot drops.
 
 You should definitely watch this video by Matthew Bolan, which explores 1.20-pre1 to 1.20-pre4 loot drops, as an introduction to loot drops: https://www.youtube.com/watch?v=a5-dISWtkDs
 
-Simplified Explanation on how gravel drops work in 1.20-pre5+: https://gist.github.com/xVoid879/8c5665c2c1ef3926a3e66cf4f052c888
-
 Block's MD5 Values (Also leads to Entities and Gameplay) here: https://gist.github.com/xVoid879/996dad365721789e53855c59fcf2fd99
 
 In Minecraft 1.20-pre5, they changed how loot drops worked for the fourth time in 1.20.
 - Now, Stafford Mixing happens after Xoroshiro and MD5 hashing.
 - They removed the burn call added in 1.20-pre3.
 - This fixed an unintended feature, in which loot drops were correlated. (Eg. If you got 4 melons on the 7th mine, you are guaranteed to get a blaze rod on the 13th kill).
+
+Simplified Explanation on how gravel drops work in 1.20-pre5+: https://gist.github.com/xVoid879/8c5665c2c1ef3926a3e66cf4f052c888
 
 ## Credits (In no particular order) for the research:
 - [Tremeschin](https://github.com/tremeschin/) for exploring dead bush stick logic and how to obtain the two MD5 Values. (Statistical Research)
