@@ -89,9 +89,9 @@ if __name__ == "__main__":
     hide_seq, foot_seq = rabbit_sequence(args.seed, args.d)
 
     if args.n == "hide":
-        print(f"Seed {args.seed} rabbit hide sequence:\n{hide_seq}")
+        print(f"Seed {args.seed} rabbit hide sequence: {hide_seq}")
     elif args.n == "foot":
-        print(f"Seed {args.seed} rabbit foot sequence:\n{foot_seq}")
+        print(f"Seed {args.seed} rabbit foot sequence: {foot_seq}")
     else:
         print("Error: -n argument must be 'hide' or 'foot'", file=sys.stderr)
         sys.exit(1)
