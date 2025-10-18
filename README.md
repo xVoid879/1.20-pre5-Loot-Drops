@@ -21,7 +21,7 @@ You should watch this video by Matthew Bolan, which covers 1.20-pre1 through pre
 
 <a href="https://www.youtube.com/watch?v=a5-dISWtkDs"><img src="https://img.shields.io/badge/Watch-Matthew%20Bolan-red?logo=youtube"></a>
 
-You can also see:
+You can should also see:
 - **Block MD5 Values** (leads to entity and gameplay values as well):  
   [gist.github.com/xVoid879/996dad365721789e53855c59fcf2fd99](https://gist.github.com/xVoid879/996dad365721789e53855c59fcf2fd99)
 - **Simplified Gravel Drop Explanation (1.20-pre5+)**:  
@@ -33,7 +33,7 @@ You can also see:
 
 In **Minecraft 1.20-pre5**, Mojang changed loot drop logic for the fifth time in 1.20:
 
-| Change | What they did |
+| Change | What it did |
 | :------ | :----------- |
 | **Stafford Mixing after Xoroshiro + MD5** | Stafford mixing happens after Xoroshiro and MD5 hashing. |
 | **Burn Call Removed** | The burn call (`nextLong()`) that was added in 1.20-pre3 was removed. |
