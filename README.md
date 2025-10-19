@@ -46,7 +46,7 @@ In **Minecraft 1.20-pre5**, Mojang changed loot drop logic for the fifth time in
 
 *(In no particular order)*
 
-- [**Tremeschin**](https://github.com/tremeschin) — Explored dead bush stick logic and created a python script to obtain two MD5 values from a specific resource location. (Statistical Research) *(Statistical Research)*
+- [**Tremeschin**](https://github.com/tremeschin) — Explored dead bush stick logic and created a python script to obtain two MD5 values from a specific resource location. (Statistical Research)
 - [**Matthew Bolan**](https://github.com/mjtb49) — Researched 1.20-pre1 to 1.20-pre4, creating a video on it, and [providing melon logic](https://gist.github.com/mjtb49/f3e01e3355178d2bb6c814606971c374).
 - [**Xpple**](https://github.com/xpple) — Provided the gravel logic, which, in my opinion, started this.
 - [**Fragrant Result**](https://github.com/FragrantResult186) — For providing tree leaf logic.
