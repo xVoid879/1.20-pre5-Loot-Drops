@@ -52,6 +52,7 @@ In **Minecraft 1.20-pre5**, Mojang changed loot drop logic for the fifth time in
 - [**Fragrant Result**](https://github.com/FragrantResult186) — For providing tree leaf logic.
 - [**PseudoGravity**](https://github.com/pseudogravity) — Finding a solution to a dumb mistake I made in my CUDA kernel searching for back-to-back flints. Also, for exploring a potential optimization for seedfinding lootdrops, involving seeds with similar xoroshiro initializations. (Statistical Research on finding cool loot drop seeds)
 - [**DuncanRuns**](https://github.com/DuncanRuns) — Created a [library](https://github.com/duncanruns/miltsu), simulating blazes and wither skeletons.
+- [**InventivetalentDev**](https://github.com/InventivetalentDev) — Created [mcasset.cloud ](https://mcasset.cloud) where I got the loot tables more easily and used it to create a script to obtain all MD5 values.
 
 *If I missed anyone, please tell me*
 
