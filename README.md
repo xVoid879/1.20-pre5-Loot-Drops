@@ -31,7 +31,7 @@ You can should also see:
 
 ## Changes in 1.20-pre5
 
-In **Minecraft 1.20-pre5**, Mojang changed loot drop logic for the fifth time in 1.20:
+In **Minecraft 1.20-pre5**, Mojang made some changes to the loot drop logic:
 
 | Change | What it did |
 | :------ | :----------- |
