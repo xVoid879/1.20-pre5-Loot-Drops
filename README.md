@@ -59,7 +59,7 @@ In **Minecraft 1.20-pre5**, Mojang made some changes to the loot drop logic:
 ---
 
 If you have questions, you can either join the Minecraft@Home Discord or DM me on Discord
-- Discord: **[Minecraft@Home](https://discord.com/mch)**
+- Discord: **[Minecraft@Home](https://discord.gg/mch)**
 - DM: **xvoid879**
 
 ---
