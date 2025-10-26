@@ -33,7 +33,7 @@ Items = [ # loot table
     {"name":"blackstone","min":8,"max":16,"weight":40,"roll_amount":True,"roll_ss":False},
 ]
 
-Total_Weight = sum(e["weight"] for e in Items)
+Total_Weight = 459 # 5 + 8 + 8 + 8 + 10 + 10 + 10 + 20 + 20 + 40 + 40 + 40 + 40 + 40 + 40 + 40 + 40 + 40
 
 def mix_stafford(seed):
     seed = (seed ^ (seed >> 30)) * STAFFORD_MIXING_1 & MASK_64
