@@ -53,14 +53,10 @@ class LootTableRNG:
             if val < bound:
                 return val
 
-def tipped_count(rng):
-    base = rng.next_int(2)
-    return base
-
 def parched_drop(rng):
     arrows = rng.next_int(3)
     bones = rng.next_int(3)
-    tipped_arrow = tipped_count(rng)
+    tipped_arrow = rng.next_int(2)
     return arrows, bones, tipped_arrow
 
 def parched_sequence(seed, max_seq=MAX_SEQUENCE):
