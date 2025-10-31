@@ -10,7 +10,7 @@
 #define PANDA_SNEEZE_MD5_1 0xbc01ceb398ec0fe6ULL
 #define STAFFORD_MIX_1 0xbf58476d1ce4e5b9ULL
 #define STAFFORD_MIX_2 0x94d049bb133111ebULL
-#define MIN_SEQUENCE 2 // min it outputs
+#define MIN_SEQUENCE 4 // min it outputs
 
 struct Xoroshiro128Plus {
     uint64_t l, h;
