@@ -1,3 +1,6 @@
+# So I thought it was correct with testing other seeds, however, when backwheat.cu found a seed where the first 14 drop wheat seeds
+# (Seed 898622453262). The first 7 do drop wheat seeds. However, drops 8-12 and 14 don't (13 does but that doesn't matter)
+
 import argparse
 
 MASK_64 = 0xFFFFFFFFFFFFFFFF
@@ -56,4 +59,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     seq = gravel_sequence(args.seed, args.d)
+
     print(f"Seed {args.seed} short grass wheat seed sequence: {seq}")
