@@ -4,7 +4,7 @@ import argparse
 
 MASK_64 = 0xFFFFFFFFFFFFFFFF
 MAX_SEQUENCE = 20
-GRAVEL_CONST = 1677721 # Fortune 1: 2396745 | Fortune 2: 4194304
+GRAVEL_CONST = 1677721.6 # Fortune 1: 2396745.26 | Fortune 2: 4194304
 
 GOLDEN_RATIO_64 = 0x9e3779b97f4a7c15
 SILVER_RATIO_64 = 0x6a09e667f3bcc909
@@ -58,4 +58,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     seq = gravel_sequence(args.seed, args.depth)
+
     print(f"Seed {args.seed} gravel sequence: {seq}")
