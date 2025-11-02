@@ -122,8 +122,8 @@ class AcaciaLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:acacia_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("acacia_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -133,8 +133,8 @@ class AzaleaLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:azalea_itself",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("azalea_itself",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -144,8 +144,8 @@ class BirchLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:birch_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("birch_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -155,8 +155,8 @@ class CherryLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:cherry_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("cherry_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -166,9 +166,9 @@ class DarkOakLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:dark_oak_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
-            Drop(lambda: Item("minecraft:dark_oak_apple",1), [0.005,0.0055555557,0.00625,0.008333334,0.025])
+            Drop(lambda: Item("dark_oak_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("dark_oak_apple",1), [0.005,0.0055555557,0.00625,0.008333334,0.025])
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -178,8 +178,8 @@ class FloweringAzaleaLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:flowering_azalea",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("flowering_azalea",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -189,8 +189,8 @@ class JungleLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:jungle_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("jungle_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -200,7 +200,7 @@ class MangroveLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -210,9 +210,9 @@ class OakLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:oak_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick", self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
-            Drop(lambda: Item("minecraft:oak_apple",1), [0.005,0.0055555557,0.00625,0.008333334,0.025])
+            Drop(lambda: Item("oak_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick", self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("oak_apple",1), [0.005,0.0055555557,0.00625,0.008333334,0.025])
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -222,8 +222,8 @@ class PaleOakLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:pale_oak_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("pale_oak_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -233,8 +233,8 @@ class SpruceLeaves(BlockRandomSequence):
         self.loot_table = self.set_loot_table()
     def set_loot_table(self):
         return [
-            Drop(lambda: Item("minecraft:spruce_sapling",1), [0.05,0.0625,0.083333336,0.1]),
-            Drop(lambda: Item("minecraft:stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
+            Drop(lambda: Item("spruce_sapling",1), [0.05,0.0625,0.083333336,0.1]),
+            Drop(lambda: Item("stick",self.set_count(1,2)), [0.02,0.022222223,0.025,0.033333335,0.1]),
         ]
     def get_loot_table(self): return self.loot_table
 
@@ -275,6 +275,10 @@ if __name__ == "__main__":
         else:
             i += 1
 
+    if target_name.lower() == "azalea":
+        target_name = "azalea_itself"
+
+
     if not target_name or "_" not in target_name:
         print("Invalid -n <leaf>_<item>")
         sys.exit(1)
@@ -290,7 +294,7 @@ if __name__ == "__main__":
     if item_name == "stick":
         target = "stick"
     else:
-        target = Item(f"minecraft:{leaf_name}_{item_name}", 1)
+        target = Item(f"{leaf_name}_{item_name}", 1)
 
     dfound = 0
     since_last = 0
@@ -304,7 +308,7 @@ if __name__ == "__main__":
                 if drop == target:
                     found = True
                     break
-            elif target == "stick" and drop.name == "minecraft:stick":
+            elif target == "stick" and drop.name == "stick":
                 found = True
                 break
         if found:
