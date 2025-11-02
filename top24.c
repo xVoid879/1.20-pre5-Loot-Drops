@@ -1,3 +1,4 @@
+// gcc -O3 -o top24 top24.c
 #include <stdio.h>
 #include <stdint.h>
 #include <inttypes.h>
