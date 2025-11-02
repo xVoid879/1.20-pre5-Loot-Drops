@@ -10,7 +10,7 @@
 #define GRAVEL_MD5_1    0x6b4882392a3638a0ULL // step 2
 #define STAFFORD_MIX_1  0xbf58476d1ce4e5b9ULL // step 3
 #define STAFFORD_MIX_2  0x94d049bb133111ebULL // step 3
-#define GRAVEL_CONST    1677721ULL            // 10% of 2^24
+#define GRAVEL_CONST    1677722ULL            // 10% of 2^24
 #define MIN_ZEROS       13                    // min # it outputs
 
 struct Xoroshiro128Plus { // generate random 64 bit # from doing some hashing steps on the world seed (every mine = new one generated)
@@ -73,4 +73,5 @@ int main() {
     cudaDeviceSynchronize();
 
     return 0;
+
 }
