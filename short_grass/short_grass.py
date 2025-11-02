@@ -44,9 +44,6 @@ def gravel_sequence(seed, max_seq=MAX_SEQUENCE):
             if (xNext64(state) >> 40) < SHORT_GRASS_CONST:
                 break
             count += 1
-            
-        if i == 0:
-            count += 1
 
         sequence.append(count)
     return sequence
