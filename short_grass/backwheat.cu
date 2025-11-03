@@ -1,4 +1,4 @@
-// 1nvcc -O3 -arch=sm_75 backwheat.cu -o backwheat
+// !nvcc -O3 -arch=sm_75 backwheat.cu -o backwheat
 
 #include <cstdio>
 #include <cstdint>
@@ -17,7 +17,7 @@ __device__ __forceinline__ uint64_t rotl64(uint64_t x, int r) {
     return (x << r) | (x >> (64 - r));
 }
 
-struct Xoroshiro128PlusPlus {
+struct Xoroshiro128Plus {
     uint64_t l, h;
 
     __device__ __forceinline__
