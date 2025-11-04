@@ -22,7 +22,7 @@ You should watch this video by Matthew Bolan, which covers 1.20-pre1 through pre
 <a href="https://www.youtube.com/watch?v=a5-dISWtkDs"><img src="https://img.shields.io/badge/Watch-Matthew%20Bolan-red?logo=youtube"></a>
 
 You can should also see:
-- **Block MD5 Values** (leads to entity and gameplay values as well):  
+- **All Loot Drop MD5 Values**:  
   [gist.github.com/xVoid879/996dad365721789e53855c59fcf2fd99](https://gist.github.com/xVoid879/996dad365721789e53855c59fcf2fd99)
 - **Simplified Gravel Drop Explanation (1.20-pre5+)**:  
   [gist.github.com/xVoid879/8c5665c2c1ef3926a3e66cf4f052c888](https://gist.github.com/xVoid879/8c5665c2c1ef3926a3e66cf4f052c888)
