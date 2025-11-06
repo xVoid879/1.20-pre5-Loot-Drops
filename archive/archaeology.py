@@ -1,3 +1,5 @@
+# This is in the archive even though it simulates the loot tables for archaeology
+# However, it is not seed dependent as pointed out by xpple (github.com/xpple)
 # ALL BUT DESERT WELL
 
 import sys
