@@ -48,7 +48,7 @@ In **Minecraft 1.20-pre5**, Mojang made some changes to the loot drop logic:
 
 - [**Tremeschin**](https://github.com/tremeschin) — Explored dead bush stick logic and created a python script to obtain two MD5 values from a specific resource location. (Statistical Research on finding cool loot drops seeds)
 - [**Matthew Bolan**](https://github.com/mjtb49) — Researched 1.20-pre1 to 1.20-pre4 loot drop logic, creating a video on it, and [providing melon 1.20-pre4 loot drop logic](https://gist.github.com/mjtb49/f3e01e3355178d2bb6c814606971c374).
-- [**Xpple**](https://github.com/xpple) — Provided the 1.20-pre5+ gravel loot drop logic, which, in my opinion, started this.
+- [**Xpple**](https://github.com/xpple) — Provided the 1.20-pre5+ gravel loot drop logic, which, in my opinion, started this. Also pointed out that archaeology is not seed-dependent.
 - [**Fragrant Result**](https://github.com/FragrantResult186) — For providing 1.20-pre5+ tree leaf loot drop logic.
 - [**PseudoGravity**](https://github.com/pseudogravity) — Finding a solution to a dumb mistake I made in my CUDA kernel searching for back-to-back flints. Also, for exploring a potential optimization for seedfinding lootdrops, involving seeds with similar xoroshiro initializations. (Statistical Research on finding cool loot drop seeds)
 - [**DuncanRuns**](https://github.com/DuncanRuns) — Created a [Java library](https://github.com/duncanruns/miltsu), simulating bartering, blazes, and wither skeleton 1.20-pre5+ loot drops.
