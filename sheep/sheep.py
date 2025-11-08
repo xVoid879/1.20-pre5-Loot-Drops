@@ -48,13 +48,13 @@ class LootTableRNG:
         if bound <= 0:
             raise ValueError("bound must be positive")
         l = self.next_long() & 0xFFFFFFFF
-        m = (l * bound) & 0xFFFFFFFFFFFFFFFF
+        m = (l * bound) & MASK_64
         low = m & 0xFFFFFFFF
         if low < bound:
             t = (-bound) % bound
             while low < t:
                 l = self.next_long() & 0xFFFFFFFF
-                m = (l * bound) & 0xFFFFFFFFFFFFFFFF
+                m = (l * bound) & MASK_64
                 low = m & 0xFFFFFFFF
         return (m >> 32) & 0xFFFFFFFF
 
