@@ -83,7 +83,7 @@ if __name__ == "__main__":
     seq_arrow, seq_bone, seq_tipped = simulate_bogged(args.seed, args.d)
 
     if args.i is None or args.i == "arrow":
-        print(f"Seed {args.seed} bogged arrpw sequence: {seq_arrow}")
+        print(f"Seed {args.seed} bogged arrow sequence: {seq_arrow}")
     if args.i is None or args.i == "bone":
         print(f"Seed {args.seed} bogged bone sequence: {seq_bone}")
     if args.i is None or args.i == "tipped_arrow":
