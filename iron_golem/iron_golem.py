@@ -66,6 +66,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     seq = iron_golem_sequence(args.seed, args.d)
-    item_list = [drop[args.item] for drop in seq]
+    item_list = [drop[args.n] for drop in seq]
 
     print(f"Seed {args.seed} {args.n}: {item_list}")
