@@ -29,7 +29,7 @@ def next_float(state):
     return (xNext64(state) >> 11) * (1.0 / (1 << 53))
 
 
-def tropical_fish_kills(seed, num_drops):
+def nautilus_kills(seed, num_drops):
     l = (seed ^ SILVER_RATIO_64) & MASK_64
     h = (l - SUBTRACT_CONSTANT) & MASK_64
 
@@ -66,5 +66,5 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    result = tropical_fish_kills(args.seed, args.d)
+    result = nautilus_kills(args.seed, args.d)
     print(f"Seed {args.seed} nautilus's nautilus shell sequence: {result}")
