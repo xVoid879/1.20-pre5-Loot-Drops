@@ -81,7 +81,7 @@ __global__ void search(uint64_t start, uint64_t end) {
         rng.set_seed(seed);
 
         int streak = 0;
-        while (rng.glowstone_drop() == 4) {
+        while (rng.glowstone_drop() == 4) { // change to 2 or 3 if you want
             streak++;
         }
 
