@@ -1,5 +1,5 @@
-// !nvcc -O3 -arch=sm_75 backender.cu -o backender
-// Finding back-to-back cod
+// !nvcc -O3 -arch=sm_75 dcod.cu -o dcod
+// Finding back-to-back cod from dolphin
 #include <cstdio>
 #include <cstdint>
 #include <inttypes.h>
