@@ -1,4 +1,4 @@
-// !nvcc -O3 -arch=sm_75 unluckygun.cu -o unluckygun
+// !nvcc -O3 -arch=sm_75 unluckysg.cu -o unluckysg
 #include <cstdio>
 #include <cstdint>
 #include <inttypes.h>
