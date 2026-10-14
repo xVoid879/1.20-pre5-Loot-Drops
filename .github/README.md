@@ -1,6 +1,7 @@
 <div align="center">
   <h1 style="margin-top: 0">1.20-pre5+ Loot Drops</h1>
   <span>Research/Simulation of Minecraft Loot Drops (1.20-pre5+)</span>
+  <h5>If you want to see records, go here: https://docs.google.com/spreadsheets/d/1woih2U61P_jiD73zhhV-iR7pCyoBZIQDKJaXs9vVfDE/edit?pli=1&gid=0#gid=0</h5>
 </div>
 
 ---
