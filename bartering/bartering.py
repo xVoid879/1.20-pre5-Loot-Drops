@@ -1,6 +1,7 @@
 # Initial by DuncanRuns https://github.com/DuncanRuns/MiLTSU/blob/main/src/main/java/me/duncanruns/miltsu/randomsequence/BarteringRandomSequence.java
 
 import sys
+import argparse
 
 MASK_64 = 0xFFFFFFFFFFFFFFFF
 
@@ -33,7 +34,17 @@ Items = [ # loot table
     {"name":"blackstone","min":8,"max":16,"weight":40,"roll_amount":True,"roll_ss":False},
 ]
 
-Total_Weight = 459 # 5 + 8 + 8 + 8 + 10 + 10 + 10 + 20 + 20 + 40 + 40 + 40 + 40 + 40 + 40 + 40 + 40 + 40
+Total_Weight = 459 # Original total weight
+
+# 1.21.6
+Dried_Ghast = {
+    "name":"dried_ghast",
+    "min":1,
+    "max":1,
+    "weight":10,
+    "roll_amount":False,
+    "roll_ss":False
+}
 
 def mix_stafford(seed):
     seed = (seed ^ (seed >> 30)) * STAFFORD_MIXING_1 & MASK_64
@@ -68,9 +79,9 @@ def next_int(state, bound):
         if val < bound:
             return val
 
-def roll(state):
-    j = next_int(state, Total_Weight)
-    for e in Items:
+def roll(state, items=Items, total_weight=Total_Weight):
+    j = next_int(state, total_weight)
+    for e in items:
         if (j := j - e["weight"]) < 0:
             amount = 1
             if e["roll_amount"]:
@@ -81,15 +92,28 @@ def roll(state):
             return (e["name"], amount)
     return None
 
-def simulate(world_seed, n=MAX_SEQUENCE):
+def simulate(world_seed, n=MAX_SEQUENCE, version_1_21_6=False):
     state = get_state(world_seed)
+
+    items = Items
+    total_weight = Total_Weight
+
+    if version_1_21_6:
+        items = Items.copy()
+        items.insert(7, Dried_Ghast)
+        total_weight += Dried_Ghast["weight"]
+
     trades = []
     for _ in range(n):
-        trades.append(roll(state))
+        trades.append(roll(state, items, total_weight))
     return trades
 
 if __name__ == "__main__":
-    seed = int(sys.argv[1]) if len(sys.argv) > 1 else 0
-    seq = simulate(seed, MAX_SEQUENCE)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("seed", type=int, nargs="?", default=0)
+    parser.add_argument("-1.21.6", dest="version_1_21_6", action="store_true")
+    args = parser.parse_args()
+
+    seq = simulate(args.seed, MAX_SEQUENCE, args.version_1_21_6)
     for i, (name, count) in enumerate(seq, 1):
         print(f"Trade {i}: {name} x{count}")
