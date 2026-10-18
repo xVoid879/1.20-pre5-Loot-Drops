@@ -1,4 +1,4 @@
-// !nvcc -O3 -arch=sm_75 catgift.cu -o catgift
+// !nvcc -O3 -arch=sm_75 cat.cu -o catgift
 #include <cstdio>
 #include <cstdint>
 #include <inttypes.h>
